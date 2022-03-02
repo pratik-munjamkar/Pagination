@@ -1,0 +1,29 @@
+.btn{
+    width: fit-content;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    background: #080708;
+    color: rgb(231, 74, 74);
+    margin: 3px;
+}
+.user-container{
+    color: rgb(77, 83, 116);
+    font-size: large;
+    width: 400px;
+    text-align: center;
+    background-image: linear-gradient(to right, #222222, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #1d1f1f);
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding:1px;
+
+}
+.user-list{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-left: 150px;
+}
+.page-display{
+    text-align: center;
+}
